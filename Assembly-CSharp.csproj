@@ -51,21 +51,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
-     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
-     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\Sugar_poke.xml" />
-     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
-     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <Compile Include="Assets\VuforiaFiles\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\VuforiaFiles\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\VuforiaFiles\StreamingAssets\VuforiaXmlFiles\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\VuforiaFiles\StreamingAssets\VuforiaXmlFiles\Sugar_poke.xml" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\VuforiaFiles\StreamingAssets\VuforiaXmlFiles\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\VuforiaFiles\StreamingAssets\VuforiaXmlFiles\VuforiaMars_Images.xml" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\VuforiaFiles\StreamingAssets\VuforiaXmlFiles\VuforiaMars_VuMark.xml" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\VuforiaFiles\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
