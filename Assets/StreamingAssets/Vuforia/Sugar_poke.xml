@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Newman-Lite-Italian-0_scaled" size="100.000000 214.632462" />
+    <ImageTarget name="Wish-Bone-Light-Western-48_scaled" size="100.000000 100.000000" />
     <ImageTarget name="Wish-Bone-Dressing-Western-44_scaled" size="100.000000 153.710938" />
-    <ImageTarget name="Wish-Bone-Light-Western-48_scaled" size="100.000000 168.359375" />
-    <ImageTarget name="Newman-Lite-Italian-0_scaled" size="100.000000 139.062500" />
     <ImageTarget name="Newman-7s-Zesty-Italian-12_scaled" size="100.000000 143.359375" />
     <ImageTarget name="Kraft-Dressing-Zesty-0Italian-0FZ-8_scaled" size="100.000000 156.054688" />
     <ImageTarget name="Kraft-Dressing-Coleslaw016FL-OZ-32_scaled" size="100.000000 164.843750" />
