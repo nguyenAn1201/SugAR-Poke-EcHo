@@ -113,31 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &2656097
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Chobani-Non-Fat-Milk-Plain-150g-0tMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 41476180685b4bf5b982ec60b5399133, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &26902932
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,8 +140,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26902932}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0.000015258789, z: 168.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalPosition: {x: 0, y: 0, z: 186}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1688346840}
   m_Father: {fileID: 1876801298}
@@ -193,7 +168,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1993460490}
+  - {fileID: 949568405}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -232,7 +207,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 26902932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &26902938
@@ -253,8 +228,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
 --- !u!1 &52173229
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,10 +257,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 52173229}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1, y: 0.000015258789, z: 166.00002}
-  m_LocalScale: {x: 139.06253, y: 139.06253, z: 139.06253}
+  m_LocalPosition: {x: 2.7, y: 0, z: 168.7}
+  m_LocalScale: {x: 214.63246, y: 214.63246, z: 214.63246}
   m_Children:
   - {fileID: 1381172931}
+  - {fileID: 505633533}
   m_Father: {fileID: 1876801298}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -310,7 +286,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1162454930}
+  - {fileID: 866546518}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -349,7 +325,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 52173229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &52173235
@@ -368,10 +344,96 @@ MonoBehaviour:
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Sugar_poke.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.390625
+  mAspectRatio: 2.1463246
   mImageTargetType: 0
-  mWidth: 100.00002
-  mHeight: 139.06253
+  mWidth: 100
+  mHeight: 214.63246
+--- !u!1 &53326807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 53326808}
+  - component: {fileID: 53326811}
+  - component: {fileID: 53326810}
+  - component: {fileID: 53326809}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &53326808
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53326807}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.221, y: 0.07, z: -0.103}
+  m_LocalScale: {x: 0.01, y: 1, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 1512945787}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &53326809
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53326807}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 60333ad1651a353429a1c8da6762a03d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &53326810
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53326807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &53326811
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 53326807}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &57767670
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,8 +461,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57767670}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.000015258789, z: 169.00002}
-  m_LocalScale: {x: 100.00003, y: 100.00003, z: 100.00003}
+  m_LocalPosition: {x: 0, y: 0, z: 159.5}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1451980486}
   m_Father: {fileID: 1876801298}
@@ -427,7 +489,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2656097}
+  - {fileID: 1269950279}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -466,7 +528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 57767670}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &57767676
@@ -487,8 +549,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 100.00003
-  mHeight: 100.00003
+  mWidth: 100
+  mHeight: 100
 --- !u!1 &58784159
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +665,7 @@ Transform:
   m_GameObject: {fileID: 72187148}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 167.00002}
-  m_LocalScale: {x: 50.000015, y: 50.000015, z: 50.000015}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
   - {fileID: 914522934}
   m_Father: {fileID: 1876801298}
@@ -630,7 +692,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2092808474}
+  - {fileID: 283129817}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -669,7 +731,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 72187148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &72187154
@@ -690,8 +752,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 50.000015
-  mHeight: 50.000015
+  mWidth: 50
+  mHeight: 50
 --- !u!1 &89580908
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 89580908}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 161.00002}
-  m_LocalScale: {x: 50.000015, y: 50.000015, z: 50.000015}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
   - {fileID: 219739392}
   m_Father: {fileID: 1876801298}
@@ -747,7 +809,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2088189768}
+  - {fileID: 1265654439}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -786,7 +848,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 89580908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &89580914
@@ -807,8 +869,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.9221311
   mImageTargetType: 0
-  mWidth: 50.000015
-  mHeight: 46.10657
+  mWidth: 50
+  mHeight: 46.106556
 --- !u!1 &127686711
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +899,7 @@ Transform:
   m_GameObject: {fileID: 127686711}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 161.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1829946282}
   m_Father: {fileID: 1876801298}
@@ -864,7 +926,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 525772575}
+  - {fileID: 2053681517}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -903,7 +965,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 127686711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &127686717
@@ -924,8 +986,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
 --- !u!1 &163748517
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +1016,7 @@ Transform:
   m_GameObject: {fileID: 163748517}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 161.00002}
-  m_LocalScale: {x: 133.20316, y: 133.20316, z: 133.20316}
+  m_LocalScale: {x: 133.20312, y: 133.20312, z: 133.20312}
   m_Children:
   - {fileID: 1298322159}
   m_Father: {fileID: 1876801298}
@@ -981,7 +1043,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 953580512}
+  - {fileID: 575393443}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1020,7 +1082,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 163748517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &163748523
@@ -1041,8 +1103,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.3320312
   mImageTargetType: 0
-  mWidth: 100.00002
-  mHeight: 133.20316
+  mWidth: 100
+  mHeight: 133.20312
 --- !u!1 &219739391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1338,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.35955057, y: 0, z: 0.5}
+      m_Extent: {x: 0.23295636, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1329,7 +1391,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 0317b8be00000000000000bf000000000000803f0000000000000000000000000317b8be000000000000003f000000000000803f00000000000000000000803f0317b83e00000000000000bf000000000000803f000000000000803f000000000317b83e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 1d8c6ebe00000000000000bf00000000ffff7f3f0000000000000000000000001d8c6ebe000000000000003f00000000ffff7f3f00000000000000000000803f1d8c6e3e00000000000000bf00000000ffff7f3f000000000000803f000000001d8c6e3e000000000000003f00000000ffff7f3f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1475,13 +1537,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 278104347}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &290131352
+--- !u!21 &283129817
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Kraft-Dressin-Classic-OZ-32_scaledMaterial
+  m_Name: Yogurt-Dannon-Whole-Milk-Plain-32oz-0tMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1494,7 +1556,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2b37cb1913d147aabc797a5a229d8b99, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c88f3caf0a842d5ac4ddb4656adb82b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1528,7 +1590,7 @@ Transform:
   m_GameObject: {fileID: 368024092}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 162.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1502789371}
   m_Father: {fileID: 1876801298}
@@ -1555,7 +1617,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1709138890}
+  - {fileID: 398860082}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1594,7 +1656,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 368024092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &368024098
@@ -1615,8 +1677,151 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
+--- !u!21 &398860082
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ken-7s-Steak-House-Italian-0_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9699efc6ae664f69a923190aa7995367, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &420107526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 420107527}
+  - component: {fileID: 420107532}
+  - component: {fileID: 420107531}
+  - component: {fileID: 420107530}
+  - component: {fileID: 420107529}
+  - component: {fileID: 420107528}
+  m_Layer: 0
+  m_Name: ImageTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &420107527
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 2.9, z: 157.6}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 1753570922}
+  - {fileID: 1525066581}
+  m_Father: {fileID: 1876801298}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &420107528
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_Mesh: {fileID: 1503472521}
+--- !u!23 &420107529
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 1940811235}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &420107530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &420107531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &420107532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420107526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTrackableName: Wish-Bone-Light-Western-48_scaled
+  mPreserveChildSize: 0
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/Sugar_poke.xml
+  mExtendedTracking: 0
+  mAspectRatio: 1
+  mImageTargetType: 0
+  mWidth: 100
+  mHeight: 100
 --- !u!1 &447297751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1850,7 @@ Transform:
   m_GameObject: {fileID: 447297751}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 164.00002}
-  m_LocalScale: {x: 50.000015, y: 50.000015, z: 50.000015}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
   - {fileID: 731413366}
   m_Father: {fileID: 1876801298}
@@ -1672,7 +1877,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1121124259}
+  - {fileID: 1769363391}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1711,7 +1916,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 447297751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &447297757
@@ -1732,15 +1937,15 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 50.000015
-  mHeight: 50.000015
---- !u!21 &525772575
+  mWidth: 50
+  mHeight: 50
+--- !u!21 &487099774
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Hidden-Valley-Light-08_scaledMaterial
+  m_Name: Kraft-Dressin-Classic-OZ-32_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1753,12 +1958,98 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: bb57a1b1ad5a49a6b4260aba981f8a52, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4687dbcf55774a86a7c8e64d19f47ee2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &505633532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 505633533}
+  - component: {fileID: 505633536}
+  - component: {fileID: 505633535}
+  - component: {fileID: 505633534}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &505633533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505633532}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.202, y: 0.026, z: -0.06}
+  m_LocalScale: {x: 0.01, y: 1, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 52173230}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &505633534
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505633532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 60333ad1651a353429a1c8da6762a03d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &505633535
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505633532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &505633536
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505633532}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &549314368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +2078,7 @@ Transform:
   m_GameObject: {fileID: 549314368}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 160.00002}
-  m_LocalScale: {x: 164.84378, y: 164.84378, z: 164.84378}
+  m_LocalScale: {x: 164.84375, y: 164.84375, z: 164.84375}
   m_Children:
   - {fileID: 2005526770}
   m_Father: {fileID: 1876801298}
@@ -1814,7 +2105,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 686105238}
+  - {fileID: 758499208}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1853,7 +2144,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 549314368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &549314374
@@ -1874,8 +2165,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.6484375
   mImageTargetType: 0
-  mWidth: 100.000015
-  mHeight: 164.84378
+  mWidth: 100
+  mHeight: 164.84375
 --- !u!1 &553180035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,7 +2281,7 @@ Transform:
   m_GameObject: {fileID: 554589604}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 163.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1623853261}
   m_Father: {fileID: 1876801298}
@@ -2017,7 +2308,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1078169045}
+  - {fileID: 1517112323}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2056,7 +2347,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 554589604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &554589610
@@ -2077,8 +2368,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
 --- !u!43 &575206060
 Mesh:
   m_ObjectHideFlags: 0
@@ -2209,6 +2500,31 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!21 &575393443
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Hidden-0Valley-20OZ-04_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23b57cecd6b943ee87bdd996e17f9cb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &592437679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2553,7 @@ Transform:
   m_GameObject: {fileID: 592437679}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 160.00002}
-  m_LocalScale: {x: 183.7891, y: 183.7891, z: 183.7891}
+  m_LocalScale: {x: 183.78906, y: 183.78906, z: 183.78906}
   m_Children:
   - {fileID: 1887400314}
   m_Father: {fileID: 1876801298}
@@ -2264,7 +2580,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1720344174}
+  - {fileID: 1128812425}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2303,7 +2619,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 592437679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &592437685
@@ -2324,8 +2640,33 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.8378906
   mImageTargetType: 0
-  mWidth: 100.000015
-  mHeight: 183.7891
+  mWidth: 100
+  mHeight: 183.78906
+--- !u!21 &618285327
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Yogurt-Chobani-Non-Fat-Milk-Blueberry-on-the-Bottom-150g-3tMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3909e4cb221b4665ac557d533e5582bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!43 &623640315
 Mesh:
   m_ObjectHideFlags: 0
@@ -2456,13 +2797,13 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &686105238
+--- !u!21 &672806782
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Kraft-Dressing-Coleslaw016FL-OZ-32_scaledMaterial
+  m_Name: Ken-Steak-FL0OZ-16_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -2475,7 +2816,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 535c7873bcab4fa584141c6789f4783c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2c2f20c848644e08a44f10b601c449c2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2739,13 +3080,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 731413365}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &821669716
+--- !u!21 &738255264
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Wish-Bone-Dressing-Western-44_scaledMaterial
+  m_Name: Kraft-Dressing-Zesty-0Italian-0FZ-8_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -2758,7 +3099,32 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6b6f8b1fee6d469983c69468b41c66d0, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad7538232796492b81fe5af431fc7172, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &758499208
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Kraft-Dressing-Coleslaw016FL-OZ-32_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bc198970f6e9456fa48e3cf8c4212bdd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2792,7 +3158,7 @@ Transform:
   m_GameObject: {fileID: 827241794}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 167.00002}
-  m_LocalScale: {x: 50.000015, y: 50.000015, z: 50.000015}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
   - {fileID: 1577326228}
   m_Father: {fileID: 1876801298}
@@ -2819,7 +3185,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 858585750}
+  - {fileID: 1711576827}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2858,7 +3224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 827241794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &827241800
@@ -2879,8 +3245,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 50.000015
-  mHeight: 50.000015
+  mWidth: 50
+  mHeight: 50
 --- !u!1 &829151735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,7 +3275,7 @@ Transform:
   m_GameObject: {fileID: 829151735}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 162.00002}
-  m_LocalScale: {x: 173.82816, y: 173.82816, z: 173.82816}
+  m_LocalScale: {x: 173.82812, y: 173.82812, z: 173.82812}
   m_Children:
   - {fileID: 1844776832}
   m_Father: {fileID: 1876801298}
@@ -2936,7 +3302,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1706278589}
+  - {fileID: 1691416413}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2975,7 +3341,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 829151735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &829151741
@@ -2996,15 +3362,15 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.7382812
   mImageTargetType: 0
-  mWidth: 100.000015
-  mHeight: 173.82816
---- !u!21 &858585750
+  mWidth: 100
+  mHeight: 173.82812
+--- !u!21 &866546518
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Dannon-Whole-Milk-Strawberry-150g-2tMaterial
+  m_Name: Newman-Lite-Italian-0_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3017,7 +3383,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b6463641d1f34b839d041e02d4c4e6f0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1fab5bab639e4c62a34663c4f73f04f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3239,13 +3605,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 914522933}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &933833952
+--- !u!21 &932204403
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Chobani-Non-Fat-Milk-Blueberry-on-the-Bottom-150g-3tMaterial
+  m_Name: Wish-Bone-Dressing-Western-44_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3258,7 +3624,32 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: cc4a3e563dc24cf8b28f9d1b6a0977de, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed946e2ebf43420b91b696a56fe4beae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &949568405
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HiddenValley-Dressing-12_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eb8bf3bb00124a90b54ee262a7e08af5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3394,31 +3785,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &953580512
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Hidden-0Valley-20OZ-04_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 80edb32eec1142cab1d2d4875a92cc16, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!43 &972377107
 Mesh:
   m_ObjectHideFlags: 0
@@ -3679,31 +4045,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &1078169045
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Ken-Steak-House-Dressin-Ranch-1_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 35c8270f466749e48d6c3260ed3d2f41, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1084236989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,7 +4073,7 @@ Transform:
   m_GameObject: {fileID: 1084236989}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 166.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 704013542}
   m_Father: {fileID: 1876801298}
@@ -3759,7 +4100,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2055313973}
+  - {fileID: 672806782}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3798,7 +4139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1084236989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1084236995
@@ -3819,15 +4160,15 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
---- !u!21 &1121124259
+  mWidth: 100
+  mHeight: 75
+--- !u!21 &1128812425
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Chobani-Non-Fat-Milk-Strawberry-on-the-Bottom-150g-3tMaterial
+  m_Name: Kra-ressing-Classic-0RanchF-4_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3840,7 +4181,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9f5f4870a6274d2f841328d1a4317f0d, type: 3}
+        m_Texture: {fileID: 2800000, guid: db2f591f0222481489ff2e5055b7f59a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3976,13 +4317,13 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &1162454930
+--- !u!21 &1146858739
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Newman-Lite-Italian-0_scaledMaterial
+  m_Name: Ken-7s_Steak-House-French-36_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3995,7 +4336,57 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8aa6c408c3a04c998e318e04d8ba5112, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72e2d456cd33416e9b763186174c2863, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &1265654439
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Yogurt-Dannon-Whole-Milk-Blueberr-150g-2tMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 579b2cc46c8a44869286237025209835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &1269950279
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Yogurt-Chobani-Non-Fat-Milk-Plain-150g-0tMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 799d16db3acb4fa996228f25ab96dca8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -4217,13 +4608,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1298322158}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1335190646
+--- !u!21 &1326023010
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Hidden-Valley-Dressing-Coleslaw-16_scaledMaterial
+  m_Name: Newman-7s-Zesty-Italian-12_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -4236,7 +4627,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 71bb37e98c94433a93ee873087f6fdf4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 004ea33da0e44d96947ba23c953e8daa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -4270,7 +4661,7 @@ Transform:
   m_GameObject: {fileID: 1337137674}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 162.00002}
-  m_LocalScale: {x: 161.52347, y: 161.52347, z: 161.52347}
+  m_LocalScale: {x: 161.52344, y: 161.52344, z: 161.52344}
   m_Children:
   - {fileID: 553180036}
   m_Father: {fileID: 1876801298}
@@ -4297,7 +4688,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 290131352}
+  - {fileID: 487099774}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4336,7 +4727,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1337137674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1337137680
@@ -4357,8 +4748,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.6152344
   mImageTargetType: 0
-  mWidth: 100.000015
-  mHeight: 161.52347
+  mWidth: 100
+  mHeight: 161.52344
 --- !u!43 &1367270354
 Mesh:
   m_ObjectHideFlags: 0
@@ -4514,8 +4905,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1381172930}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.03, y: 0.09, z: -0.06}
-  m_LocalScale: {x: 0.05, y: 1, z: 0.05}
+  m_LocalPosition: {x: 0.211, y: 0.089, z: 0.034}
+  m_LocalScale: {x: 0.015, y: 1, z: 0.015}
   m_Children: []
   m_Father: {fileID: 52173230}
   m_RootOrder: 0
@@ -4733,7 +5124,7 @@ Transform:
   m_GameObject: {fileID: 1447255642}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 163.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 58784160}
   m_Father: {fileID: 1876801298}
@@ -4760,7 +5151,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1566243023}
+  - {fileID: 1146858739}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4799,7 +5190,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1447255642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1447255648
@@ -4820,8 +5211,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
 --- !u!1 &1451980485
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5385,136 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1502789370}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &1503472521
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 11
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &1512945781
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,7 +5556,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 821669716}
+  - {fileID: 932204403}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5074,7 +5595,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1512945781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1512945786
@@ -5104,13 +5625,125 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1512945781}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.519989, z: 166.00002}
+  m_LocalPosition: {x: 0, y: 1, z: 160}
   m_LocalScale: {x: 153.71094, y: 153.71094, z: 153.71094}
   m_Children:
   - {fileID: 2096161359}
+  - {fileID: 53326808}
   m_Father: {fileID: 1876801298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1517112323
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ken-Steak-House-Dressin-Ranch-1_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9b865a935fd54524a26c2ee46c32a8de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!1 &1525066580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1525066581}
+  - component: {fileID: 1525066584}
+  - component: {fileID: 1525066583}
+  - component: {fileID: 1525066582}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1525066581
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525066580}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.187, y: 0.056, z: -0.108}
+  m_LocalScale: {x: 0.01, y: 1, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 420107527}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!23 &1525066582
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525066580}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 60333ad1651a353429a1c8da6762a03d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1525066583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525066580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1525066584
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525066580}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!43 &1544937928
 Mesh:
   m_ObjectHideFlags: 0
@@ -5241,31 +5874,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &1566243023
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Ken-7s_Steak-House-French-36_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 31cdb68aade2494a8b10dfce5b331805, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1568689629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,8 +6052,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1587151766}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.000015258789, z: 163.00002}
-  m_LocalScale: {x: 156.05472, y: 156.05472, z: 156.05472}
+  m_LocalPosition: {x: 0, y: 0, z: 161}
+  m_LocalScale: {x: 156.05469, y: 156.05469, z: 156.05469}
   m_Children:
   - {fileID: 278104348}
   m_Father: {fileID: 1876801298}
@@ -5472,7 +6080,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1626972102}
+  - {fileID: 738255264}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5511,7 +6119,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1587151766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1587151772
@@ -5532,33 +6140,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.5605469
   mImageTargetType: 0
-  mWidth: 100.00002
-  mHeight: 156.05472
---- !u!21 &1613589141
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Newman-7s-Zesty-Italian-12_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d5a9e64400504702a47c05406d6dde61, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  mWidth: 100
+  mHeight: 156.05469
 --- !u!1 &1623853260
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,31 +6228,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1623853260}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1626972102
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Kraft-Dressing-Zesty-0Italian-0FZ-8_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b92354d4304046c3ab4a2479d5b6649b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!43 &1628037347
 Mesh:
   m_ObjectHideFlags: 0
@@ -5957,8 +6515,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1655054643}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.000015258789, z: 163.00002}
-  m_LocalScale: {x: 143.3594, y: 143.3594, z: 143.3594}
+  m_LocalPosition: {x: 0, y: 0, z: 158}
+  m_LocalScale: {x: 143.35938, y: 143.35938, z: 143.35938}
   m_Children:
   - {fileID: 1814956436}
   m_Father: {fileID: 1876801298}
@@ -5985,7 +6543,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1613589141}
+  - {fileID: 1326023010}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6024,7 +6582,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1655054643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1655054649
@@ -6045,8 +6603,8 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1.4335938
   mImageTargetType: 0
-  mWidth: 100.00002
-  mHeight: 143.3594
+  mWidth: 100
+  mHeight: 143.35938
 --- !u!43 &1658059006
 Mesh:
   m_ObjectHideFlags: 0
@@ -6349,6 +6907,31 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1688346839}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1691416413
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Kraft-0Dressing-Classic-Ranch-12_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 715c5600b44f4374b321258f140a31b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!43 &1692300375
 Mesh:
   m_ObjectHideFlags: 0
@@ -6479,13 +7062,13 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &1706278589
+--- !u!21 &1711576827
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Kraft-0Dressing-Classic-Ranch-12_scaledMaterial
+  m_Name: Yogurt-Dannon-Whole-Milk-Strawberry-150g-2tMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -6498,62 +7081,98 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 56b020699245481480f0e77fa1824a80, type: 3}
+        m_Texture: {fileID: 2800000, guid: 05975ba1a5e24685bb99a92835e81934, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &1709138890
-Material:
-  serializedVersion: 6
+--- !u!1 &1753570921
+GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Ken-7s-Steak-House-Italian-0_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d1a2626b94c54c2a855b2bb41901d6ae, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &1720344174
-Material:
-  serializedVersion: 6
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1753570922}
+  - component: {fileID: 1753570925}
+  - component: {fileID: 1753570924}
+  - component: {fileID: 1753570923}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753570922
+Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Kra-ressing-Classic-0RanchF-4_scaledMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a0c87ee6dfec4a69b6116c1113cd2d6b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_GameObject: {fileID: 1753570921}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.196, y: 0.102, z: -0.027}
+  m_LocalScale: {x: 0.015, y: 1, z: 0.015}
+  m_Children: []
+  m_Father: {fileID: 420107527}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!23 &1753570923
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1753570921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b081474f92716c4478fed3af8a327540, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1753570924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1753570921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1753570925
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1753570921}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!43 &1769279581
 Mesh:
   m_ObjectHideFlags: 0
@@ -6684,6 +7303,56 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!21 &1769363391
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Yogurt-Chobani-Non-Fat-Milk-Strawberry-on-the-Bottom-150g-3tMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f79c9d3a50e7464d89805ce218dcbce0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &1797725487
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Hidden-Valley-Dressing-Coleslaw-16_scaledMaterial
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0231536c54ce486f8887e21e4c61adca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1814956435
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,8 +7378,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814956435}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.07, z: 0}
-  m_LocalScale: {x: 0.05, y: 1, z: 0.05}
+  m_LocalPosition: {x: 0.251, y: 0.112, z: 0}
+  m_LocalScale: {x: 0.015, y: 1, z: 0.015}
   m_Children: []
   m_Father: {fileID: 1655054644}
   m_RootOrder: 0
@@ -7320,6 +7989,7 @@ Transform:
   - {fileID: 57767671}
   - {fileID: 2034605384}
   - {fileID: 447297752}
+  - {fileID: 420107527}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -7409,13 +8079,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1887400313}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1993460490
+--- !u!21 &1940811235
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: HiddenValley-Dressing-12_scaledMaterial
+  m_Name: Wish-Bone-Light-Western-48_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -7428,7 +8098,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 82a0053d51834b7b84797871442cd54a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8bf0038ac3794e2c907ac872efc9fd0f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7547,8 +8217,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2034605383}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.000015258789, z: 161.00002}
-  m_LocalScale: {x: 100.00003, y: 100.00003, z: 100.00003}
+  m_LocalPosition: {x: 0, y: 4, z: 168}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 712603488}
   m_Father: {fileID: 1876801298}
@@ -7575,7 +8245,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 933833952}
+  - {fileID: 618285327}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7614,7 +8284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2034605383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2034605389
@@ -7635,15 +8305,15 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 100.00003
-  mHeight: 100.00003
---- !u!21 &2055313973
+  mWidth: 100
+  mHeight: 100
+--- !u!21 &2053681517
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Ken-Steak-FL0OZ-16_scaledMaterial
+  m_Name: Hidden-Valley-Light-08_scaledMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -7656,7 +8326,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6639f9bca4e24854a90ec7b2bbfac83e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 393499b0ab8448b9b6410795e75d2f50, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7792,56 +8462,6 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!21 &2088189768
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Dannon-Whole-Milk-Blueberr-150g-2tMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d061f98f745f447f8d794f63d5fff657, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &2092808474
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Yogurt-Dannon-Whole-Milk-Plain-32oz-0tMaterial
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d2c3856de5454fdd98ad13a857156915, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &2096161358
 GameObject:
   m_ObjectHideFlags: 0
@@ -7867,8 +8487,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2096161358}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.078, z: -0.00000011152}
-  m_LocalScale: {x: 0.040074356, y: 0.04007436, z: 0.04007436}
+  m_LocalPosition: {x: 0.218, y: 0.128, z: 0.021}
+  m_LocalScale: {x: 0.015, y: 0.04007436, z: 0.015}
   m_Children: []
   m_Father: {fileID: 1512945787}
   m_RootOrder: 0
@@ -8086,7 +8706,7 @@ Transform:
   m_GameObject: {fileID: 2121433806}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0.000015258789, z: 161.00002}
-  m_LocalScale: {x: 100.00006, y: 100.00006, z: 100.00006}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1668819895}
   m_Father: {fileID: 1876801298}
@@ -8113,7 +8733,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 1335190646}
+  - {fileID: 1797725487}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8152,7 +8772,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121433806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2250f86e1d3a8e4883a9876e6ae1288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2121433812
@@ -8173,5 +8793,5 @@ MonoBehaviour:
   mExtendedTracking: 0
   mAspectRatio: 0.75
   mImageTargetType: 0
-  mWidth: 100.00006
-  mHeight: 75.000046
+  mWidth: 100
+  mHeight: 75
