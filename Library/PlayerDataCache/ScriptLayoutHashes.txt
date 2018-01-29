@@ -1,4 +1,4 @@
-Android
+iOS
 SceneListBegin?
 Assets/SugAR Poke App scene.unity
 SceneListEnd?
