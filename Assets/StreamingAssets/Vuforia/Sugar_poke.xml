@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Yogurt-Chobani-Non-Fat-Milk-Plain-150g-0t" size="500.000000 375.000000" />
+    <ImageTarget name="Wish-Bone-Dressing-Western-44_scaled" size="100.000000 100.000000" />
+    <ImageTarget name="Wish-Bone-Light-Western-48_scaled" size="100.000000 227.350433" />
+    <ImageTarget name="Chobani-Vanilla-32oz-16" size="1.000000 0.940845" />
+    <ImageTarget name="Chobani-Coffe-5oz-3" size="1.000000 1.000000" />
+    <ImageTarget name="Chobani-Vanilla-5oz-3" size="1.000000 0.673239" />
+    <ImageTarget name="Yogurt-Chobani-Non-Fat-Milk-Plain-150g-0t" size="500.000000 317.000000" />
+    <ImageTarget name="Chobani-Fat-Free-Greek-32oz-0" size="1.000000 1.333333" />
     <ImageTarget name="StonyField-Fat-Free-FrenchVanilla-6" size="1.000000 0.750000" />
     <ImageTarget name="PediaSure-GrowGain-4" size="1.000000 0.750000" />
-    <ImageTarget name="Chobani-Vanilla-32oz-16" size="1.000000 0.750000" />
-    <ImageTarget name="Chobani-Vanilla-5oz-3" size="1.000000 0.750000" />
-    <ImageTarget name="Chobani-Fat-Free-Greek-32oz-0" size="1.000000 0.750000" />
-    <ImageTarget name="Chobani-Coffe-5oz-3" size="1.000000 0.750000" />
     <ImageTarget name="Chobani-Cherry-5oz-3" size="1.000000 0.750000" />
     <ImageTarget name="Newman-Lite-Italian-0_scaled" size="100.000000 214.632462" />
-    <ImageTarget name="Wish-Bone-Light-Western-48_scaled" size="100.000000 100.000000" />
-    <ImageTarget name="Wish-Bone-Dressing-Western-44_scaled" size="100.000000 153.710938" />
     <ImageTarget name="Newman-7s-Zesty-Italian-12_scaled" size="100.000000 143.359375" />
     <ImageTarget name="Kraft-Dressing-Zesty-0Italian-0FZ-8_scaled" size="100.000000 156.054688" />
     <ImageTarget name="Kraft-Dressing-Coleslaw016FL-OZ-32_scaled" size="100.000000 164.843750" />
