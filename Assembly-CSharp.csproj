@@ -9,7 +9,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
     <ProjectGuid>{2E8B4649-6201-BBD3-1283-D29658F75380}</ProjectGuid>
+=======
+    <ProjectGuid>{5AFCC3B9-EB90-2FCB-2762-66268B093C99}</ProjectGuid>
+>>>>>>> upstream/master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,7 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\CameraFocusController.cs" />
+=======
+     <Compile Include="Assets\EChOResources\Instruction Button Stuff\InstructionsButtonScript.cs" />
+>>>>>>> upstream/master
      <Compile Include="Assets\EChOResources\TeaspoonCounterContents\CounterScript.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
